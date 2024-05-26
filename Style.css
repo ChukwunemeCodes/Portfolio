@@ -347,6 +347,17 @@ main #skills .skill-block .skill-line #skill-line-css3 {
   width: 90%;
 }
 
+main #skills .skill-block .skill-line #skill-line-excel {
+  width: 90%;
+}
+
+main #skills .skill-block .skill-line #skill-line-office {
+  width: 90%;
+}
+main #skills .skill-block .skill-line #skill-line-vba {
+  width: 70%;
+}
+
 main #skills .skill-block .skill-line #skill-line-saas {
   width: 50%;
 }
@@ -379,8 +390,8 @@ main #skills .skill-block .skill-line #skill-line-SQL {
   width: 70%;
 }
 
-main #skills .skill-block .skill-line #skill-line-mongo {
-  width: 50%;
+main #skills .skill-block .skill-line #skill-line-graphics {
+  width: 90%;
 }
 
 main #skills .skill-block .skill-line #skill-line-Adobe {

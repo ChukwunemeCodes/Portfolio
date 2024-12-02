@@ -99,3 +99,13 @@ element.forEach(a=>a.addEventListener("mouseover", function( event ) {
 element.forEach(a=>a.addEventListener("mouseout", function( event ) {
     cursor.classList.remove("red");
 },));
+
+//navbar
+const mobileNav = document.querySelector(".hamburger");
+const navbar = document.querySelector(".menubar");
+
+const toggleNav = () => {
+  navbar.classList.toggle("active");
+  mobileNav.classList.toggle("hamburger-active");
+};
+mobileNav.addEventListener("click", () => toggleNav());

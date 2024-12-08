@@ -264,11 +264,13 @@ nav #day-night {
 main {
   position: relative;
   padding: 1rem;
-  width: 85%;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  margin: auto auto auto;
 }
 
 main .block {
+  display: block;
   padding: 2rem;
   margin-bottom: 2rem;
 }
@@ -276,11 +278,11 @@ main .block {
 main .block .heading {
   font-family: 'Major Mono Display', 'monospace';
   font-size: 3rem;
-  width: 35%;
+  width: 70%;
 }
 
 main .block p {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 main #about {
@@ -303,7 +305,7 @@ main #about {
 }
 
 main #about #heading--main {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 main #skills .skill-blocks-all {
@@ -818,12 +820,12 @@ nav ul {
   display: flex;
 }
 nav ul li {
-  margin-left: 15rem;
+  margin-left: 7.5rem;
 }
 nav ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -837,7 +839,7 @@ nav ul li a {
   height: 1px;
   background-color: #1f1f1f;
   display: block;
-  margin: 7px auto;
+  margin: 7px 7.5px 7.5px;
   transition: all 0.3s ease-in-out;
 }
 .hamburger-active {
